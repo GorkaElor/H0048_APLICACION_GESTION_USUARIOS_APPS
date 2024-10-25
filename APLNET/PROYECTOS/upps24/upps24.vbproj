@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C05F36C-521D-4B41-8AB5-5626F8306523}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>upps24.My.MyApplication</StartupObject>
+    <RootNamespace>upps24</RootNamespace>
+    <AssemblyName>upps24</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>upps24.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>upps24.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAltaGrupo.Designer.vb">
+      <DependentUpon>frmAltaGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaPro.Designer.vb">
+      <DependentUpon>frmAltaPro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaPro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApp.Designer.vb">
+      <DependentUpon>frmApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppASP.Designer.vb">
+      <DependentUpon>frmAppASP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppASP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppGrupos.Designer.vb">
+      <DependentUpon>frmAppGrupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppGrupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppLanza.Designer.vb">
+      <DependentUpon>frmAppLanza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppLanza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppPermisos.Designer.vb">
+      <DependentUpon>frmAppPermisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppPermisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppSelOrigen.Designer.vb">
+      <DependentUpon>frmAppSelOrigen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppSelOrigen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppUsuarios.Designer.vb">
+      <DependentUpon>frmAppUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppUsuNuevo.Designer.vb">
+      <DependentUpon>frmAppUsuNuevo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppUsuNuevo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppUsys.Designer.vb">
+      <DependentUpon>frmAppUsys.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppUsys.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoGruposAplicacion.Designer.vb">
+      <DependentUpon>frmMantenimientoGruposAplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoGruposAplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoProcesosAplicacion.Designer.vb">
+      <DependentUpon>frmMantenimientoProcesosAplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoProcesosAplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoUsuariosAplicacion.Designer.vb">
+      <DependentUpon>frmMantenimientoUsuariosAplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoUsuariosAplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSel.Designer.vb">
+      <DependentUpon>frmSel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelApp.Designer.vb">
+      <DependentUpon>frmSelApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelGrupos.Designer.vb">
+      <DependentUpon>frmSelGrupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelGrupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelProcesos.Designer.vb">
+      <DependentUpon>frmSelProcesos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelProcesos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelUsuarios.Designer.vb">
+      <DependentUpon>frmSelUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsu.Designer.vb">
+      <DependentUpon>frmUsu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuApp.Designer.vb">
+      <DependentUpon>frmUsuApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuCopia.Designer.vb">
+      <DependentUpon>frmUsuCopia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuCopia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuNuevoCopia.Designer.vb">
+      <DependentUpon>frmUsuNuevoCopia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuNuevoCopia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmApp.resx">
+      <DependentUpon>frmApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppASP.resx">
+      <DependentUpon>frmAppASP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppGrupos.resx">
+      <DependentUpon>frmAppGrupos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppLanza.resx">
+      <DependentUpon>frmAppLanza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppPermisos.resx">
+      <DependentUpon>frmAppPermisos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppUsuarios.resx">
+      <DependentUpon>frmAppUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppUsuNuevo.resx">
+      <DependentUpon>frmAppUsuNuevo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppUsys.resx">
+      <DependentUpon>frmAppUsys.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoGruposAplicacion.resx">
+      <DependentUpon>frmMantenimientoGruposAplicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoProcesosAplicacion.resx">
+      <DependentUpon>frmMantenimientoProcesosAplicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoUsuariosAplicacion.resx">
+      <DependentUpon>frmMantenimientoUsuariosAplicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsu.resx">
+      <DependentUpon>frmUsu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuCopia.resx">
+      <DependentUpon>frmUsuCopia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuNuevoCopia.resx">
+      <DependentUpon>frmUsuNuevoCopia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
