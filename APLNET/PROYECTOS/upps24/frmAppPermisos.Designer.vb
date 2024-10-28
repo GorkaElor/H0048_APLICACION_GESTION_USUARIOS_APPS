@@ -31,16 +31,17 @@ Partial Class frmAppPermisos
         '
         'dtgrAppPermisos
         '
+        Me.dtgrAppPermisos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dtgrAppPermisos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtgrAppPermisos.Location = New System.Drawing.Point(53, 44)
         Me.dtgrAppPermisos.Name = "dtgrAppPermisos"
-        Me.dtgrAppPermisos.Size = New System.Drawing.Size(417, 341)
+        Me.dtgrAppPermisos.Size = New System.Drawing.Size(435, 379)
         Me.dtgrAppPermisos.TabIndex = 0
         '
         'btnNuevoPermiso
         '
         Me.btnNuevoPermiso.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnNuevoPermiso.Location = New System.Drawing.Point(53, 415)
+        Me.btnNuevoPermiso.Location = New System.Drawing.Point(53, 441)
         Me.btnNuevoPermiso.Name = "btnNuevoPermiso"
         Me.btnNuevoPermiso.Size = New System.Drawing.Size(75, 23)
         Me.btnNuevoPermiso.TabIndex = 1
@@ -50,7 +51,7 @@ Partial Class frmAppPermisos
         'btnEditarPermiso
         '
         Me.btnEditarPermiso.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEditarPermiso.Location = New System.Drawing.Point(148, 415)
+        Me.btnEditarPermiso.Location = New System.Drawing.Point(146, 441)
         Me.btnEditarPermiso.Name = "btnEditarPermiso"
         Me.btnEditarPermiso.Size = New System.Drawing.Size(75, 23)
         Me.btnEditarPermiso.TabIndex = 2
@@ -61,7 +62,7 @@ Partial Class frmAppPermisos
         'btnEliminarPermiso
         '
         Me.btnEliminarPermiso.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEliminarPermiso.Location = New System.Drawing.Point(248, 415)
+        Me.btnEliminarPermiso.Location = New System.Drawing.Point(246, 441)
         Me.btnEliminarPermiso.Name = "btnEliminarPermiso"
         Me.btnEliminarPermiso.Size = New System.Drawing.Size(75, 23)
         Me.btnEliminarPermiso.TabIndex = 3
@@ -72,7 +73,7 @@ Partial Class frmAppPermisos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(578, 465)
+        Me.ClientSize = New System.Drawing.Size(578, 475)
         Me.Controls.Add(Me.btnEliminarPermiso)
         Me.Controls.Add(Me.btnEditarPermiso)
         Me.Controls.Add(Me.btnNuevoPermiso)

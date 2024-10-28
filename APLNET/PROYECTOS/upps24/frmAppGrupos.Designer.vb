@@ -31,6 +31,7 @@ Partial Class frmAppGrupos
         '
         'dtgrAppGrupos
         '
+        Me.dtgrAppGrupos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dtgrAppGrupos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtgrAppGrupos.Location = New System.Drawing.Point(62, 30)
         Me.dtgrAppGrupos.Name = "dtgrAppGrupos"
@@ -71,7 +72,7 @@ Partial Class frmAppGrupos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(578, 465)
+        Me.ClientSize = New System.Drawing.Size(578, 475)
         Me.Controls.Add(Me.btnEliminarGrupo)
         Me.Controls.Add(Me.btnEditarGrupo)
         Me.Controls.Add(Me.btnNuevoGrupo)

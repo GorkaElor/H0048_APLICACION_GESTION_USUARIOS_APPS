@@ -43,6 +43,8 @@
         'frmUsuNuevoCopia.Show()
         'frmUsuCopia.Show()
         frmMantenimientoGruposAplicacion.Show()
+        'frmMantenimientoUsuariosAplicacion.Show()
+        'frmMantenimientoProcesosAplicacion.Show()
     End Sub
 
     Private Sub btnEliminarApp_Click(sender As Object, e As EventArgs) Handles btnEliminarApp.Click

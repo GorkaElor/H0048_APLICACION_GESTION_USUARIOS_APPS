@@ -29,5 +29,21 @@
 
         panelFormuUsuarios.Controls.Add(formularioUsuarios) ' Agrega el formulario al Panel
         formularioUsuarios.Show() ' Muestra el formulario dentro del panel
+
+
+
+
+
+    End Sub
+
+    Private Sub frmMantenimientoGruposAplicacion_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        'Igualamos las barras de desplazamiento para que queden igualados:
+        panelFormuPermisos.VerticalScroll.Value = 0
+        panelFormuUsuarios.VerticalScroll.Value = 0
+        panelContenedorFormuGrupo.VerticalScroll.Value = 0
+
+        panelFormuPermisos.HorizontalScroll.Value = 0
+        panelFormuUsuarios.HorizontalScroll.Value = 0
+        panelContenedorFormuGrupo.HorizontalScroll.Value = 0
     End Sub
 End Class
