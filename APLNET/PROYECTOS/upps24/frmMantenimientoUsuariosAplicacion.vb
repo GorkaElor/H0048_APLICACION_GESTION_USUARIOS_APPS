@@ -14,7 +14,7 @@
 
         formularioGrupos.TopLevel = False ' Hace que el formulario sea no de nivel superior
         formularioGrupos.FormBorderStyle = FormBorderStyle.None ' Opcional: quita los bordes del formulario
-
+        formularioGrupos.btnEditarGrupo.Visible = False
 
         panelFormuGrupos.Controls.Add(formularioGrupos) ' Agrega el formulario al Panel
         formularioGrupos.Show() ' Muestra el formulario dentro del panel
@@ -23,7 +23,7 @@
 
         formularioProcesos.TopLevel = False ' Hace que el formulario sea no de nivel superior
         formularioProcesos.FormBorderStyle = FormBorderStyle.None ' Opcional: quita los bordes del formulario
-
+        formularioProcesos.btnEditarPermiso.Visible = False
 
         panelFormuPermisos.Controls.Add(formularioProcesos) ' Agrega el formulario al Panel
         formularioProcesos.Show() ' Muestra el formulario dentro del panel
@@ -39,5 +39,9 @@
         panelFormuPermisos.HorizontalScroll.Value = 0
         panelFormuUsuarios.HorizontalScroll.Value = 0
         panelFormuGrupos.HorizontalScroll.Value = 0
+    End Sub
+
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
+        Me.Close()
     End Sub
 End Class

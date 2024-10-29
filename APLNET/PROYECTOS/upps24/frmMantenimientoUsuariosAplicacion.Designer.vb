@@ -26,6 +26,7 @@ Partial Class frmMantenimientoUsuariosAplicacion
         Me.panelFormuGrupos = New System.Windows.Forms.Panel()
         Me.panelFormuPermisos = New System.Windows.Forms.Panel()
         Me.btnReportUsuariosAplicacion = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'panelFormuUsuarios
@@ -64,12 +65,22 @@ Partial Class frmMantenimientoUsuariosAplicacion
         Me.btnReportUsuariosAplicacion.Text = "INFORME"
         Me.btnReportUsuariosAplicacion.UseVisualStyleBackColor = True
         '
+        'btnSalir
+        '
+        Me.btnSalir.Location = New System.Drawing.Point(694, 415)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnSalir.TabIndex = 4
+        Me.btnSalir.Text = "Button1"
+        Me.btnSalir.UseVisualStyleBackColor = True
+        '
         'frmMantenimientoUsuariosAplicacion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.btnReportUsuariosAplicacion)
         Me.Controls.Add(Me.panelFormuPermisos)
         Me.Controls.Add(Me.panelFormuGrupos)
@@ -85,4 +96,5 @@ Partial Class frmMantenimientoUsuariosAplicacion
     Friend WithEvents panelFormuGrupos As Panel
     Friend WithEvents panelFormuPermisos As Panel
     Friend WithEvents btnReportUsuariosAplicacion As Button
+    Friend WithEvents btnSalir As Button
 End Class

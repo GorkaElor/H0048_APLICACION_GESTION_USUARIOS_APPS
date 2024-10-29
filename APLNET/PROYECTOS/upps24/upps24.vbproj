@@ -261,6 +261,15 @@
     <EmbeddedResource Include="frmMantenimientoUsuariosAplicacion.resx">
       <DependentUpon>frmMantenimientoUsuariosAplicacion.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSel.resx">
+      <DependentUpon>frmSel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelApp.resx">
+      <DependentUpon>frmSelApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelGrupos.resx">
+      <DependentUpon>frmSelGrupos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUsu.resx">
       <DependentUpon>frmUsu.vb</DependentUpon>
     </EmbeddedResource>
